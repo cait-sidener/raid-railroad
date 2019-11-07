@@ -1,0 +1,82 @@
+{
+
+    "railroadAgreement": [{
+        "agreementNumber": null,
+        "countyName": "Clay",
+        "railroadCompany": "UP: Union Pacific Railroad",
+        "lastAgreementExp": null,
+        "location": null
+      },
+      {
+        "agreementNumber": "01831-78",
+        "countyName": "Shawnee",
+        "railroadCompany": "UP: Union Pacific Railroad",
+        "lastAgreementExp": null,
+        "location": "Meoken Land"
+      },
+
+      {
+        "agreementNumber": "108075",
+        "countyName": "Rush",
+        "railroadCompany": "AT&SF: Atchison, Topeka, and Santa Fe Railway",
+        "lastAgreementExp": "6/30/1993",
+        "location": "Alexander"
+      },
+      {
+        "agreementNumber": "111395",
+        "countyName": "Haskell",
+        "railroadCompany": "AT&SF: Atchison, Topeka, and Santa Fe Railway",
+        "lastAgreementExp": "8/2/1996",
+        "location": "Sublette"
+      },
+      {
+        "agreementNumber": "3785-F",
+        "countyName": "Saline",
+        "railroadCompany": "UP: Union Pacific Railroad",
+        "lastAgreementExp": "11/30/2025",
+        "location": "Brookville"
+      },
+      {
+        "agreementNumber": "C-226",
+        "countyName": "Edwards",
+        "railroadCompany": "AT&SF: Atchison, Topeka, and Santa Fe Railway",
+        "lastAgreementExp": "8/10/1993",
+        "location": "Kinsley"
+      },
+      {
+        "agreementNumber": "RB",
+        "countyName": "Sedgwick",
+        "railroadCompany": "AT&SF: Atchison, Topeka, and Santa Fe Railway",
+        "lastAgreementExp": null,
+        "location": "Clonmel"
+      }],
+      
+    "agreementInfo": [{
+        "railroadCompany":"UP: Union Pacific Railroad",
+        "section": "NW/4 17-11S -15E",
+        "agreementNumber": "01831-78",
+        "location":"Meoken Land",
+        "county": "Shawnee",
+        "route": 24,
+        "spotRoute": "Spot",
+        "lastAgreementDate": "5/1/1992",
+        "lastAgreementDuration": null,
+        "durationUnits": null,
+        "lastAgreementExp": null,
+        "rentAmount": "$0.00",
+        "leasePurpose": "Land for road, highway, or crossing",
+        "reasonForTermination": null,
+        "description": "R/W in Menoken",
+        "cdNumber": 34834,
+        "auditNumber": "A066787",
+        "ldNumber": 44131,
+        "highwayStatus": "On",
+        "plansMarked": "Yes",
+        "pk": 7,
+        "fk": 220,
+        "createdBy": "OLDSYSTEM",
+        "createdOn": "10/7/2013",
+        "modifiedBy": null,
+        "modifiedOn": null
+    }]    
+  }
