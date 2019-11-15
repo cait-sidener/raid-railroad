@@ -1,6 +1,7 @@
 {
 
     "railroadAgreement": [{
+        "id": 1,
         "agreementNumber": null,
         "countyName": "Clay",
         "railroadCompany": "UP: Union Pacific Railroad",
@@ -8,14 +9,15 @@
         "location": null
       },
       {
+        "id": 2,
         "agreementNumber": "01831-78",
         "countyName": "Shawnee",
         "railroadCompany": "UP: Union Pacific Railroad",
         "lastAgreementExp": null,
         "location": "Meoken Land"
       },
-
       {
+        "id": 3,
         "agreementNumber": "108075",
         "countyName": "Rush",
         "railroadCompany": "AT&SF: Atchison, Topeka, and Santa Fe Railway",
@@ -23,6 +25,7 @@
         "location": "Alexander"
       },
       {
+        "id": 4,
         "agreementNumber": "111395",
         "countyName": "Haskell",
         "railroadCompany": "AT&SF: Atchison, Topeka, and Santa Fe Railway",
@@ -30,6 +33,7 @@
         "location": "Sublette"
       },
       {
+        "id": 5,
         "agreementNumber": "3785-F",
         "countyName": "Saline",
         "railroadCompany": "UP: Union Pacific Railroad",
@@ -37,6 +41,7 @@
         "location": "Brookville"
       },
       {
+        "id": 6,
         "agreementNumber": "C-226",
         "countyName": "Edwards",
         "railroadCompany": "AT&SF: Atchison, Topeka, and Santa Fe Railway",
@@ -44,6 +49,7 @@
         "location": "Kinsley"
       },
       {
+        "id": 6,
         "agreementNumber": "RB",
         "countyName": "Sedgwick",
         "railroadCompany": "AT&SF: Atchison, Topeka, and Santa Fe Railway",
