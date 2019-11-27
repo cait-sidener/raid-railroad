@@ -1,88 +1,76 @@
 {
 
-    "railroadAgreement": [{
-        "id": 1,
-        "agreementNumber": null,
-        "countyName": "Clay",
-        "railroadCompany": "UP: Union Pacific Railroad",
-        "lastAgreementExp": null,
-        "location": null
-      },
-      {
-        "id": 2,
-        "agreementNumber": "01831-78",
-        "countyName": "Shawnee",
-        "railroadCompany": "UP: Union Pacific Railroad",
-        "lastAgreementExp": null,
-        "location": "Meoken Land"
-      },
-      {
-        "id": 3,
-        "agreementNumber": "108075",
-        "countyName": "Rush",
-        "railroadCompany": "AT&SF: Atchison, Topeka, and Santa Fe Railway",
-        "lastAgreementExp": "6/30/1993",
-        "location": "Alexander"
-      },
-      {
-        "id": 4,
-        "agreementNumber": "111395",
-        "countyName": "Haskell",
-        "railroadCompany": "AT&SF: Atchison, Topeka, and Santa Fe Railway",
-        "lastAgreementExp": "8/2/1996",
-        "location": "Sublette"
-      },
-      {
-        "id": 5,
-        "agreementNumber": "3785-F",
-        "countyName": "Saline",
-        "railroadCompany": "UP: Union Pacific Railroad",
-        "lastAgreementExp": "11/30/2025",
-        "location": "Brookville"
-      },
-      {
-        "id": 6,
-        "agreementNumber": "C-226",
-        "countyName": "Edwards",
-        "railroadCompany": "AT&SF: Atchison, Topeka, and Santa Fe Railway",
-        "lastAgreementExp": "8/10/1993",
-        "location": "Kinsley"
-      },
-      {
-        "id": 6,
-        "agreementNumber": "RB",
-        "countyName": "Sedgwick",
-        "railroadCompany": "AT&SF: Atchison, Topeka, and Santa Fe Railway",
-        "lastAgreementExp": null,
-        "location": "Clonmel"
-      }],
-      
-    "agreementInfo": [{
-        "railroadCompany":"UP: Union Pacific Railroad",
-        "section": "NW/4 17-11S -15E",
-        "agreementNumber": "01831-78",
-        "location":"Meoken Land",
-        "county": "Shawnee",
-        "route": 24,
-        "spotRoute": "Spot",
-        "lastAgreementDate": "5/1/1992",
-        "lastAgreementDuration": null,
-        "durationUnits": null,
-        "lastAgreementExp": null,
-        "rentAmount": "$0.00",
-        "leasePurpose": "Land for road, highway, or crossing",
-        "reasonForTermination": null,
-        "description": "R/W in Menoken",
-        "cdNumber": 34834,
-        "auditNumber": "A066787",
-        "ldNumber": 44131,
-        "highwayStatus": "On",
-        "plansMarked": "Yes",
-        "pk": 7,
-        "fk": 220,
-        "createdBy": "OLDSYSTEM",
-        "createdOn": "10/7/2013",
-        "modifiedBy": null,
-        "modifiedOn": null
-    }]    
-  }
+    "RRA_ID": [{
+        "PK": 7,
+        "FK1": 220,
+        "RRA_RRC_ID": 1, 
+        "RRA_DURATION": null,
+        "RRA_DURATION_UNITS": null,
+        "RRA_COUNTY": "Shawnee",
+        "RRA_SECTION": "NW/4 17-11S -15E",
+        "RRA_TOWNSHIP": null,
+        "RRA_RANGE": null,
+        "RRA_RENT_AMT": "$0.00",
+        "RRA_AREA": null,
+        "RRA_MILES": null,
+        "RRA_LAST_AGREE_DT": "5/1/1992",
+        "RRA_LAST_AGREE_EXPIRE_DT": null,
+        "RRA_NEGOT_EXPIRE_DT": null,
+        "RRA_NEGOT_KICKOFF_LETTER_DT": null,
+        "RRA_NEGOT_RESPONSE_DT": null,
+        "RRA_NEGOT_DRAFT_AGREE_DT": null,
+        "RRA_NEGOT_KDOT_EXEC_AGREE_DT": null,
+        "RRA_NEGOT_RR_EXEC_AGREE_DT": null,
+        "RRA_QTR_SECTION": null,
+        "RRA_LATEST_PROJ_NUM": null,
+        "RRA_ORIGINAL_PROJ_NUM": null,
+        "RRA_AGREE_NUM": "01831-78",
+        "RRA_ROUTE": 24,
+        "RRA_NEGOT_AGREE_NUM": null,
+        "RRA_CD_NUM": 34834,
+        "RRA_AUDIT_NUM": "A066787",
+        "RRA_LD_NUM": 44131,
+        "RRA_LOCATION": "Meoken Land",
+        "RRA_TERMINATION_REASON": null,
+        "RRA_DESCRIPT": "R/W in Menoken", 
+        "RRA_LEASE_PURPOSE": "Land for road, highway, or crossing",
+        "RRA_NEGOT_RR_OWNER": null,
+        "RRA_TOWNSHIP_DIR": null,
+        "RRA_RANGE_DIR": null,
+        "RRA_SPOT": "Spot",
+        "RRA_HIGHWAY_STATUS": "On",
+        "RRA_PLANS_MARKED": "Yes",
+        "RRA_DIS_IND": null,
+        "RRA_CREATED_BY": "OLDSYSTEM",
+        "RRA_CREATED_DT": "10/7/2013",
+        "RRA_MODIFIED": null,
+        "RRA_MODIFIED_BY": null,
+        "RRA_MODIFIED_DT": null
+      }
+],
+  "RAID_RAILROAD_COMPANIES": [{
+    "PK": null,
+    "RRC_COMPANY_NAME": "UP: Union Pacific Railroad",
+    "RRC_ABBREVIATION": null,
+    "RRC_OWNER": null,
+    "RRC_DIS_IND": null,
+    "RRC_CREATED_BY": null,
+    "RRC_CREATED_DT": null,
+    "RRC_MODIFIED": null,
+    "RRC_MODIFIED_BY": null,
+    "RRC_MODIFIED_DT": null
+  }],
+  "RAID_RAILROAD_AGREE_COMMENTS": [{
+    "RRAC_RRA_ID": null,
+    "RRAC_ORDER": null,
+    "RRAC_COMMENT": null,
+    "RRAC_ON_REPORT": null,
+    "RRAC_DIS_IND": null,
+    "RRAC_CREATED_BY": null,
+    "RRAC_CREATED_DT": null,
+    "RRAC_MODIFIED": null,
+    "RRAC_MODIFIED_BY": null,
+    "RRAC_MODIFED_DT": null
+  }]
+}
+   
